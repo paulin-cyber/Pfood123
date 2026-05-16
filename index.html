@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icon.png">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="logo" id="home">
+        <img src="pfood.png" alt="Logo" width="85px"height="85px">
+<a class="acompa"href="https://paulin-cyber.github.io/Pfoodcupom/">
+<span>Cupons</span>
+</a>
+    </nav>
+    <div class="card">
+        <em><h1>Cardápio</h1></em>
+        <details>
+        <summary>X-Burguer </summary>
+        <p>Pão brioche, cheddar, hambúrguer,<br> alface, tomate, maionese verde <br><br> R$24,90</p>
+        <img src="burguer.png" alt="X-Burguer" width="200px" height="200px">
+        </details>
+        <br>
+        <details>
+        <summary>X-Bacon </summary>
+        <p>Pão brioche, cheddar, hambúrguer,<br> alface, tomate, maionese verde, bacon defumado <br><br>R$29,90</p>
+        <img src="bacon.png" alt="X-Bacon" width="200px" height="200px">
+        </details>
+        <br>
+        <details>
+        <summary>X-Egg Bacon </summary>
+        <p>Pão brioche, cheddar, hambúrguer,<br> alface, tomate, maionese verde, ovo, bacon defumado <br><br>R$34,90</p>
+        <img src="eggbacon.png" alt="X-Egg Bacon" width="200px" height="200px">
+        </details>
+        <br>
+        <details>
+        <summary>X-Egg </summary>
+        <p>Pão brioche, cheddar, hambúrguer,<br> alface, tomate, maionese verde, ovo <br><br>R$27,90</p>
+        <img src="Egg.png" alt="X-Egg" width="200px" height="200px">
+        </details>
+        <br>
+        <details>
+        <summary>Especial da Casa </summary>
+        <p>Pão brioche, cheddar, hambúrguer,<br> alface, tomate, maionese verde, ovo,<br> bacon defumado, picles, torre de cheddar,<br> batata palha, milho, molho branco <br><br>R$42,90</p>
+        <img src="Especial.png" alt="Especial da Casa" width="200px" height="200px">
+    </details>
+        <br>
+        <a class="acompa"href="#acompanhamento"><button class="quero">Quero um Sanduíche</button></a>
+    </div>
+    <hr>
+   <div class="page">
+    <em><h1>Faça seu pedido</h1></em>
+    <br>
+    <label>Sanduíche:</label>
+    <select name="escolha" id="sanduiches">
+    <option value="escolha 1">X-Burguer</option>
+    <option value="escolha 2">X-Bacon</option>
+    <option value="escolha 3">X-Egg Bacon</option>
+    <option value="escolha 4">X-Egg</option>
+    <option value="escolha 5">Especial da Casa</option>
+    </select>
+    <br><br>
+    <label>Refrigerante:</label>
+    <select name="escolha" id="refrigerante">
+        <option value="escolha 0">Nenhum</option>
+    <option value="escolha 1">Coca 350ml R$6</option>
+    <option value="escolha 2">Guaraná 350ml R$6</option>
+    <option value="escolha 3">Sprite 350ml R$6</option>
+    <option value="escolha 4">Coca 2L R$13</option>
+    <option value="escolha 5">Guaraná 2L R$13</option>
+    </select>
+    <br><br>
+    <label>Acompanhamento:</label>
+    <select name="escolha" id="acompanhamento">
+        <option value="escolha 0">Nenhum</option>
+    <option value="escolha 1">Fritas Pequena R$9,90</option>
+    <option value="escolha 2">Fritas Média R$14,90</option>
+    <option value="escolha 3">Fritas Grande R$19,90</option>
+    <option value="escolha 4">Nuggets Médio R$16,90</option>
+    <option value="escolha 5">Nuggets Grande R$22,90</option>
+    </select>
+    <br><br>
+    <button class="pedir">Pedir</button>
+    <input type="text" id="cupom" placeholder="Cupom?">
+    <br><br>
+    <a class="diferente" href="#home">Voltar ao Cardápio</a>
+   </div>
+</body>
+</html>
